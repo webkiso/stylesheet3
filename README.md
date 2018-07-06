@@ -12190,7 +12190,7 @@ phina.namespace(function() {
           titleLabel: {
             className: 'phina.display.Label',
             arguments: {
-              text: params.title,
+              text: "＠13号館裏",
               fill: params.fontColor,
               stroke: false,
               fontSize: 64,
@@ -12299,7 +12299,7 @@ phina.namespace(function() {
               text: message,
               fill: params.fontColor,
               stroke: null,
-              fontSize: 32,
+              fontSize: 20,
             },
             x: this.gridX.center(),
             y: this.gridY.span(9),
@@ -12308,7 +12308,7 @@ phina.namespace(function() {
           shareButton: {
             className: 'phina.ui.Button',
             arguments: [{
-              text: '★',
+              text: '⬅︎',
               width: 128,
               height: 128,
               fontColor: params.fontColor,
@@ -12351,22 +12351,18 @@ phina.namespace(function() {
         });
       }
 
-      this.shareButton.onclick = function() {
-        var text = 'Score: {0}\n{1}'.format(params.score, message);
-        var url = phina.social.Twitter.createURL({
-          text: text,
-          hashtags: params.hashtags,
-          url: params.url,
-        });
-        window.open(url, 'share window', 'width=480, height=320');
-      };
+     // デフォルトの処理(Twitter シェア)を上書きする
+    this.shareButton.onclick = function() {
+      // 特定の URL を開く
+      window.open('file:///Users/itouchihiro/Downloads/17176056ChihiroIto/phinajs/index.html');
+    };
     },
 
     _static: {
       defaults: {
         score: 16,
 
-        message: 'this is phina.js project.',
+        message: 'マムシと息切れに注意。',
         hashtags: 'phina_js,game,javascript',
         url: phina.global.location && phina.global.location.href,
 
