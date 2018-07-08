@@ -12308,7 +12308,7 @@ phina.namespace(function() {
           shareButton: {
             className: 'phina.ui.Button',
             arguments: [{
-              text: '⬅︎',
+              text: 'BACK',
               width: 128,
               height: 128,
               fontColor: params.fontColor,
@@ -12324,7 +12324,7 @@ phina.namespace(function() {
           playButton: {
             className: 'phina.ui.Button',
             arguments: [{
-              text: '▶',
+              text: 'RETRY',
               width: 128,
               height: 128,
               fontColor: params.fontColor,
@@ -12354,7 +12354,7 @@ phina.namespace(function() {
      // デフォルトの処理(Twitter シェア)を上書きする
     this.shareButton.onclick = function() {
       // 特定の URL を開く
-      location.href="http://sfdn.sd.tmu.ac.jp/~web_basic_2018/group10/web_basic_last/index.html";
+      location.href="http://sfdn.sd.tmu.ac.jp/~web_basic_2018/group10/web_basic_last/index;
     };
     },
 
