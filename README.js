@@ -12354,7 +12354,7 @@ phina.namespace(function() {
      // デフォルトの処理(Twitter シェア)を上書きする
     this.shareButton.onclick = function() {
       // 特定の URL を開く
-      location.href="http://sfdn.sd.tmu.ac.jp/~web_basic_2018/group10/web_basic_last/index;
+      location.href="http://sfdn.sd.tmu.ac.jp/~web_basic_2018/group10/web_basic_last/index/ ;
     };
     },
 
