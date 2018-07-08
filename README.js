@@ -12354,7 +12354,7 @@ phina.namespace(function() {
      // デフォルトの処理(Twitter シェア)を上書きする
     this.shareButton.onclick = function() {
       // 特定の URL を開く
-      window.open('file:///Users/itouchihiro/Downloads/17176056ChihiroIto/phinajs/index.html');
+      location.href="index.html";
     };
     },
 
