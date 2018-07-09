@@ -12354,7 +12354,7 @@ phina.namespace(function() {
      // デフォルトの処理(Twitter シェア)を上書きする
     this.shareButton.onclick = function() {
       // 特定の URL を開く
-      window.open('https://www.google.co.jp/?client=safari&channel=iphone_bm');
+      window.open('index.html');
     };
     },
 
