@@ -12308,7 +12308,7 @@ phina.namespace(function() {
           shareButton: {
             className: 'phina.ui.Button',
             arguments: [{
-              text: 'BACK',
+              text: '⬅︎',
               width: 128,
               height: 128,
               fontColor: params.fontColor,
@@ -12324,7 +12324,7 @@ phina.namespace(function() {
           playButton: {
             className: 'phina.ui.Button',
             arguments: [{
-              text: 'RETRY',
+              text: '▶︎',
               width: 128,
               height: 128,
               fontColor: params.fontColor,
